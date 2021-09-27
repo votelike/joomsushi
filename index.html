@@ -230,12 +230,21 @@
 
     <form action="telegram.php" method="POST">
 <!-- <form id="formToSend"> -->
-    	<input  type="text" name="name" placeholder="Ваши фамилия и имя"  class="" />
-    	<input  type="text" name="city" placeholder="Город"  class="text-input"/>
-   	 <input  type="text" name="phone" placeholder="Контактный телефон" class="text-input"/>
-   	 <input  type="text" name="email" placeholder="Электронная почта" class="" />
-   	 <br>
-   	 <textarea id="question" placeholder="Адрес"></textarea>
+    	<div class="form-group">
+	     <input  type="text" class="form-control" name="name" placeholder="Ваши фамилия и имя">
+		</div>
+	    
+	 <div class="form-group">
+    	<input  type="text" class="form-control" name="city" placeholder="Город">
+		 </div>
+	    
+	  <div class="form-group">
+   	 <input  type="text" class="form-control" name="phone" placeholder="Контактный телефон">
+		  </div>
+	    
+	  <div class="form-group">
+   	 <input  type="text" class="form-control" name="email" placeholder="Электронная почта">
+		   </div>
     	<br>
    	 <!-- <b>Доставка:</b>
     	<br>
@@ -248,10 +257,13 @@
     </select>
     <br>
     <input type="checkbox" value="V"> Предоплата -->
-	    <button type="submit" class="btn">Отправить форму</button>
+	    
+	    
+	  <button type="submit" class="btn">Отправить форму</button>
+	    
     </form>
 
-  <button onclick="telegram.php" method="POST">Отправить заказ</button>
+<!--  <button onclick="telegram.php" method="POST">Отправить заказ</button> -->
 
 
  <!-- <button onclick="cart.sendOrder('formToSend,overflw,bsum');" href="#">Отправить заказ</button> -->
