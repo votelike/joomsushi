@@ -1,10 +1,3 @@
-/***************************************
- * JQuery based script					
- * Basket on client side 				
- * Created WebInside WebStudio (c) 2014	
- * Use only for linked www.webinside.ru 
- **************************************/
-
 var local = 	{
 			"basket_is_empty" : "Корзина пуста", 
 			"name" : "Название",
