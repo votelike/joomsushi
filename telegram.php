@@ -6,7 +6,7 @@ $email = $_POST['email'];
 $token = "2043511126:AAGFMs4cEYOvf0573IK43oCjKbL4yA3q5j8";
 $chat_id = "-1001462133451";
 $arr = array(
-  'Имя пользователя: ' => $fio,
+  'Имя пользователя: ' => $name,
   'Телефон: ' => $phone,
   'Email' => $email
 );
