@@ -1,6 +1,6 @@
 <?php
 
-$name = $_POST['fio'];
+$name = $_POST['name'];
 $phone = $_POST['phone'];
 $email = $_POST['email'];
 $token = "2043511126:AAGFMs4cEYOvf0573IK43oCjKbL4yA3q5j8";
