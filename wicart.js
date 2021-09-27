@@ -68,9 +68,7 @@ function WICard(obj, plugins)
 		
 		}
 		
-/***********************************************************************************************
- * example: onclick="cart.addToCart(this, '2', 'Name of comic 2', '25500')						
- **********************************************************************************************/
+
 	this.addToCart = function(curObj, id, params)
 		{
 		var kol = 1;
