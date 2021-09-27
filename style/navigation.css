@@ -1,0 +1,52 @@
+
+#navigation {
+            background: #FF9999;
+            width: 1300px;
+            height: 300px;
+            background-image: url(обложка.jpg)
+}
+
+.mops_text {
+ padding: 12% 0%;
+}
+.mops_text h2 {
+ color: #fff;
+ font-size: 2.9em;
+ font-weight: 600;
+ z-index: 10;
+ text-align: center;
+ position: relative; /* относительное позиционирование заголовка */
+ margin-top: -140px;
+ }
+.mops_text h2 span {
+ font-size: 1.1em;
+ font-weight: 190;
+}
+.mops_text p {
+ color: #fff;
+ font-size: 1.2em;
+ text-align: center;
+ margin: 1.5em auto;
+ width: 70%;
+ font-weight: 250;
+ line-height: 1.3em;
+}
+.mops_text .da-butt {
+ display: block;
+ background-color: #a97b7b;
+ color: #fff;
+ font-size: 1em;
+ text-transform: uppercase;
+ margin: 0 auto;
+ width: 10%;
+ text-align: center;
+ padding: 1em 2em;
+}
+.da-butt {
+ position: absolute; /* абсолютное позиционирование кнопки */
+ left: 750px; top: 370px;  /* отступы от краев браузера */
+}
+.mops_text .da-butt:hover
+{
+ background:#d0a5a5;
+}

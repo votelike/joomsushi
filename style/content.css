@@ -1,0 +1,365 @@
+
+#content1   {
+  float: left;
+  width: 200px;
+  height: 550px;
+
+}
+
+
+.tital_text {
+     font-size: 150%; /* Размер текста */
+        font-weight: lighter; /* Светлое начертание */
+      font-family: 'Roboto Slab', serif;
+  text-align:center;
+}
+
+
+.descriptions { font-size: 100%; /* Размер текста */
+    font-weight:200; /* Светлое начертание */
+font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.number { font-size: 90%;
+           text-align: center;
+}
+
+.price { margin-left:15px;
+  font-size: 110%;
+  color: #586FA4;
+}
+
+
+
+
+.buy:hover
+{
+
+ background:#d0a5a5;
+}
+.buy {    margin-left:23px;
+ background-color: #a97b7b;
+ color: #fff;
+ font-size: 1em;
+ text-transform: uppercase;
+ width: 10%;
+ text-align: center;
+ padding: 1em 2em;
+}
+.bay-bg  h2 span{
+  font-size: 1.1em;
+  font-weight: 190;
+}
+
+#content2   {
+  left:10px;
+  float: left;
+  width: 200px;
+  height: 550px;
+margin-left:23px;
+}
+
+
+.tital_text {
+     font-size: 150%; /* Размер текста */
+        font-weight: lighter; /* Светлое начертание */
+      font-family: 'Roboto Slab', serif;
+  text-align:center;
+}
+
+
+.descriptions { font-size: 100%; /* Размер текста */
+    font-weight:200; /* Светлое начертание */
+font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.number { font-size: 90%;
+           text-align: center;
+}
+
+.price { margin-left:15px;
+  font-size: 110%;
+  color: #586FA4;
+}
+
+
+
+
+.buy:hover
+{
+
+ background:#d0a5a5;
+}
+.buy {    margin-left:23px;
+ background-color: #a97b7b;
+ color: #fff;
+ font-size: 1em;
+ text-transform: uppercase;
+ width: 10%;
+ text-align: center;
+ padding: 1em 2em;
+}
+.bay-bg  h2 span{
+  font-size: 1.1em;
+  font-weight: 190;
+}
+
+#content3   {
+  float: left;
+  width: 200px;
+  height: 550px;
+margin-left:23px;
+}
+
+
+.tital_text {
+     font-size: 150%; /* Размер текста */
+        font-weight: lighter; /* Светлое начертание */
+      font-family: 'Roboto Slab', serif;
+  text-align:center;
+}
+
+
+.descriptions { font-size: 100%; /* Размер текста */
+    font-weight:200; /* Светлое начертание */
+font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.number { font-size: 90%;
+           text-align: center;
+}
+
+.price { margin-left:15px;
+  font-size: 110%;
+  color: #586FA4;
+}
+
+
+
+
+.buy:hover
+{
+
+ background:#d0a5a5;
+}
+.buy {    margin-left:23px;
+ background-color: #a97b7b;
+ color: #fff;
+ font-size: 1em;
+ text-transform: uppercase;
+ width: 10%;
+ text-align: center;
+ padding: 1em 2em;
+}
+.bay-bg  h2 span{
+  font-size: 1.1em;
+  font-weight: 190;
+}
+
+#content4   {
+  float: left;
+  width: 200px;
+  height: 550px;
+margin-left:23px;
+}
+
+
+.tital_text {
+     font-size: 150%; /* Размер текста */
+        font-weight: lighter; /* Светлое начертание */
+      font-family: 'Roboto Slab', serif;
+  text-align:center;
+}
+
+
+.descriptions { font-size: 100%; /* Размер текста */
+    font-weight:200; /* Светлое начертание */
+font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.number { font-size: 90%;
+           text-align: center;
+}
+
+.price { margin-left:15px;
+  font-size: 110%;
+  color: #586FA4;
+}
+
+
+
+
+.buy:hover
+{
+
+ background:#d0a5a5;
+}
+.buy {    margin-left:23px;
+ background-color: #a97b7b;
+ color: #fff;
+ font-size: 1em;
+ text-transform: uppercase;
+ width: 10%;
+ text-align: center;
+ padding: 1em 2em;
+}
+.bay-bg  h2 span{
+  font-size: 1.1em;
+  font-weight: 190;
+}
+
+#content5   {
+  float: left;
+  width: 200px;
+  height: 550px;
+margin-left:23px;
+}
+
+
+.tital_text {
+     font-size: 150%; /* Размер текста */
+        font-weight: lighter; /* Светлое начертание */
+      font-family: 'Roboto Slab', serif;
+  text-align:center;
+}
+
+
+.descriptions { font-size: 100%; /* Размер текста */
+    font-weight:200; /* Светлое начертание */
+font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.number { font-size: 90%;
+           text-align: center;
+}
+
+.price { margin-left:15px;
+  font-size: 110%;
+  color: #586FA4;
+}
+
+
+
+
+.buy:hover
+{
+
+ background:#d0a5a5;
+}
+.buy {    margin-left:23px;
+ background-color: #a97b7b;
+ color: #fff;
+ font-size: 1em;
+ text-transform: uppercase;
+ width: 10%;
+ text-align: center;
+ padding: 1em 2em;
+}
+.bay-bg  h2 span{
+  font-size: 1.1em;
+  font-weight: 190;
+}
+
+#content6   {
+  float: left;
+  width: 200px;
+  height: 550px;
+margin-left:23px;
+}
+
+
+.tital_text {
+     font-size: 150%; /* Размер текста */
+        font-weight: lighter; /* Светлое начертание */
+      font-family: 'Roboto Slab', serif;
+  text-align:center;
+}
+
+
+.descriptions { font-size: 100%; /* Размер текста */
+    font-weight:200; /* Светлое начертание */
+font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.number { font-size: 90%;
+           text-align: center;
+}
+
+.price { margin-left:15px;
+  font-size: 110%;
+  color: #586FA4;
+}
+
+
+
+
+.buy:hover
+{
+
+ background:#d0a5a5;
+}
+.buy {    margin-left:23px;
+ background-color: #a97b7b;
+ color: #fff;
+ font-size: 1em;
+ text-transform: uppercase;
+ width: 10%;
+ text-align: center;
+ padding: 1em 2em;
+}
+.bay-bg  h2 span{
+  font-size: 1.1em;
+  font-weight: 190;
+}
+
+#content7   {
+  float: left;
+  width: 200px;
+  height: 550px;
+margin-left:23px;
+}
+
+
+.tital_text {
+     font-size: 150%; /* Размер текста */
+        font-weight: lighter; /* Светлое начертание */
+      font-family: 'Roboto Slab', serif;
+  text-align:center;
+}
+
+
+.descriptions { font-size: 100%; /* Размер текста */
+    font-weight:200; /* Светлое начертание */
+font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.number { font-size: 90%;
+           text-align: center;
+}
+
+.price { margin-left:15px;
+  font-size: 110%;
+  color: #586FA4;
+}
+
+
+
+
+.buy:hover
+{
+
+ background:#d0a5a5;
+}
+.buy {    margin-left:23px;
+ background-color: #a97b7b;
+ color: #fff;
+ font-size: 1em;
+ text-transform: uppercase;
+ width: 10%;
+ text-align: center;
+ padding: 1em 2em;
+}
+.bay-bg  h2 span{
+  font-size: 1.1em;
+  font-weight: 190;
+}
