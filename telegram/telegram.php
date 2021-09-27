@@ -1,5 +1,6 @@
 <?php
 
+echo "echo не требует скобок.";
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $email = $_POST['email'];
