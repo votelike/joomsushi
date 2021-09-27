@@ -234,8 +234,8 @@ token = 2043511126:AAGFMs4cEYOvf0573IK43oCjKbL4yA3q5j8
     <a href="#" onclick="cart.closeWindow('order', 0)" style="float:right">[закрыть]</a>
     <h4>Введите ваши контактные данные</h4>
 
-    <form action="telegram.php" method="POST">
-  <!--  <form id="formToSend"> -->
+   <!-- <form action="telegram.php" method="POST"> -->
+<form id="formToSend">
     <input id="fio" type="text" placeholder="Ваши фамилия и имя"  class="" />
     <input id="city" type="text" placeholder="Город"  class="text-input"/>
     <input id="phone" type="text" placeholder="Контактный телефон" class="text-input"/>
@@ -256,10 +256,10 @@ token = 2043511126:AAGFMs4cEYOvf0573IK43oCjKbL4yA3q5j8
     <input type="checkbox" value="V"> Предоплата -->
     </form>
 
-    <button onclick="telegram.php" method="POST">Отправить заказ</button>
+  <!--  <button onclick="telegram.php" method="POST">Отправить заказ</button> -->
 
 
-  <!--  <button onclick="cart.sendOrder('formToSend,overflw,bsum');" href="#">Отправить заказ</button> -->
+  <button onclick="cart.sendOrder('formToSend,overflw,bsum');" href="#">Отправить заказ</button>
     </div>
     <!----------------------------------------------------->
 
