@@ -227,10 +227,38 @@
     <div id="order" class="popup">
     <a href="#" onclick="cart.closeWindow('order', 0)" style="float:right">[закрыть]</a>
     <h4>Введите ваши контактные данные</h4>
+	    
+	    
+<form action="telegram.php" method="POST">
+  <legend>Заголовок формы</legend>
 
-    <form action="telegram.php" method="POST">
+  <div class="form-group">
+    <input type="text" class="form-control" id="" name="name" placeholder="Введите имя">
+  </div>
+
+  <div class="form-group">
+    <input type="text" class="form-control" id="" name="phone" placeholder="Введите телефон">
+  </div>
+
+  <div class="form-group">
+    <input type="text" class="form-control" id="" name="email" placeholder="Введите email">
+  </div>
+
+  <div class="form-group">
+    <textarea name="msg" placeholder="введите сообщение"></textarea>
+  </div>
+
+  <button type="submit" class="btn">Отправить форму</button>
+</form>    
+	    
+	    
+	    
+	    
+	    
+
+<!-- rrr  <form action="telegram.php" method="POST">  -->
 <!-- <form id="formToSend"> -->
-    	<div class="form-group">
+    <!--rrr	<div class="form-group">
 	     <input  type="text" class="form-control" name="name" placeholder="Ваши фамилия и имя">
 		</div>
 	    
@@ -241,7 +269,7 @@
 	  <div class="form-group">
    	 <input  type="text" class="form-control" name="email" placeholder="Электронная почта">
 		   </div>
-    	<br>
+    	<br> -->
    	 <!-- <b>Доставка:</b>
     	<br>
     <select id="delivery">
@@ -255,9 +283,9 @@
     <input type="checkbox" value="V"> Предоплата -->
 	    
 	    
-	  <button type="submit" class="btn">Отправить форму</button>
+	<!-- rrr  <button type="submit" class="btn">Отправить форму</button> -->
 	    
-    </form>
+ <!-- rrr   </form> -->
 
 <!--  <button onclick="telegram.php" method="POST">Отправить заказ</button> -->
 
