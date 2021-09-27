@@ -1,0 +1,30 @@
+<?php
+
+/* https://api.telegram.org/botXXXXXXXXXXXXXXXXXXXXXXX/getUpdates,
+где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее */
+
+$name = $_POST['fio'];
+$phone = $_POST['phone'];
+$email = $_POST['email'];
+$token = "2043511126:AAGFMs4cEYOvf0573IK43oCjKbL4yA3q5j8";
+$chat_id = "-1001462133451";
+$arr = array(
+  'Имя пользователя: ' => $fio,
+  'Телефон: ' => $phone,
+  'Email' => $email,
+  'Город' => $city,
+  'Адресс' => $question
+);
+
+foreach($arr as $key => $value) {
+  $txt .= "<b>".$key."</b> ".$value."%0A";
+};
+
+$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
+
+if ($sendToTelegram) {
+  header('Location: thank-you.html');
+} else {
+  echo "Error";
+}
+?>
