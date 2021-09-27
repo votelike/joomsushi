@@ -230,15 +230,15 @@
 
     <form action="telegram.php" method="POST">
 <!-- <form id="formToSend"> -->
-    <input id="fio" type="text" name="name" placeholder="Ваши фамилия и имя"  class="" />
-    <input id="city" type="text" name="city" placeholder="Город"  class="text-input"/>
-    <input id="phone" type="text" name="phone" placeholder="Контактный телефон" class="text-input"/>
-    <input id="email" type="text" name="email" placeholder="Электронная почта" class="" />
-    <br>
-    <textarea id="question" placeholder="Адрес"></textarea>
-    <br>
-    <!-- <b>Доставка:</b>
-    <br>
+    	<input  type="text" name="name" placeholder="Ваши фамилия и имя"  class="" />
+    	<input  type="text" name="city" placeholder="Город"  class="text-input"/>
+   	 <input  type="text" name="phone" placeholder="Контактный телефон" class="text-input"/>
+   	 <input  type="text" name="email" placeholder="Электронная почта" class="" />
+   	 <br>
+   	 <textarea id="question" placeholder="Адрес"></textarea>
+    	<br>
+   	 <!-- <b>Доставка:</b>
+    	<br>
     <select id="delivery">
     <option value="-">-</option>
     <option value="Почта РФ">Почта РФ</option>
@@ -248,7 +248,7 @@
     </select>
     <br>
     <input type="checkbox" value="V"> Предоплата -->
-	<p><input type="submit"></p>
+	    <button type="submit" class="btn">Отправить форму</button>
     </form>
 
   <button onclick="telegram.php" method="POST">Отправить заказ</button>
